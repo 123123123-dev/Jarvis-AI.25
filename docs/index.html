@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="Wmh9OFfNjSLlFBakbWeXcPKD8KeuhiwWGDIJ9eyliwY" />
-  <title>Jarvis AI.2.5 — Next-Generation Multimodal AI Workspace</title>
-  <meta name="description" content="Experience Jarvis AI.2.5. Use the live AI workspace right here or open the full-screen app." />
+  <title>Jarvis AI.2.5 — Multimodal AI Workspace</title>
+  <meta name="description" content="Jarvis AI.2.5 is an independent AI assistant workspace for real-time web research, vision analysis, and code generation." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -18,27 +18,22 @@
     <div class="orb orb-3"></div>
   </div>
 
-  <!-- Top Navigation Bar (Gemini Style) -->
+  <!-- Top Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
       <a href="#" class="brand" aria-label="Jarvis AI.2.5 Home">
         <span class="sparkle-icon" aria-hidden="true">
           <svg viewBox="0 0 28 28" fill="none">
-            <path d="M14 2C14.8 9.2 18.8 13.2 26 14C18.8 14.8 14.8 18.8 14 26C13.2 18.8 9.2 14.8 2 14C9.2 13.2 13.2 9.2 14 2Z" fill="url(#jarvisGrad)" />
-            <defs>
-              <linearGradient id="jarvisGrad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#38BDF8" />
-                <stop offset="0.5" stop-color="#818CF8" />
-                <stop offset="1" stop-color="#22D3EE" />
-              </linearGradient>
-            </defs>
+            <circle cx="14" cy="14" r="11" stroke="#22D3EE" stroke-width="2.2" />
+            <circle cx="14" cy="14" r="6.5" stroke="#818CF8" stroke-width="1.8" />
+            <polygon points="14,9 18.5,17 9.5,17" fill="#38BDF8" />
           </svg>
         </span>
         <span class="brand-text">Jarvis <span class="gradient-text">AI.2.5</span></span>
       </a>
 
       <nav class="nav-links" aria-label="Primary Navigation">
-        <a href="#live-app">Live Workspace</a>
+        <a href="#workspace">Workspace</a>
         <a href="#features">Features</a>
         <a href="#models">Engines</a>
       </nav>
@@ -55,8 +50,8 @@
   </header>
 
   <main>
-    <!-- Hero + Live Embedded JARVIS AI App -->
-    <section class="hero" id="live-app">
+    <!-- Hero + Direct Workspace Launcher -->
+    <section class="hero" id="workspace">
       <div class="container">
         <div class="hero-badge">
           <span class="pulse-dot"></span>
@@ -67,7 +62,7 @@
           Meet <span class="gradient-text">Jarvis AI.2.5</span>
         </h1>
         <p class="hero-subtitle">
-          Your intelligent AI workspace for real-time web knowledge, multimodal vision, neural artwork synthesis, and voice interaction. Use the live app below or open it in full screen.
+          An independent AI assistant workspace for real-time web knowledge, multimodal vision, neural artwork synthesis, and voice interaction.
         </p>
 
         <!-- Top CTA under headline -->
@@ -81,7 +76,7 @@
           <a href="#features" class="btn btn-ghost btn-lg">Explore Capabilities</a>
         </div>
 
-        <!-- Live JARVIS AI Application Window -->
+        <!-- Safe Direct Preview Card (No Cross-Origin Iframe) -->
         <div class="prototype-shell">
           <div class="prototype-header">
             <div class="window-dots">
@@ -89,35 +84,37 @@
             </div>
             <div class="prototype-title">
               <span class="model-indicator"></span>
-              <span>Jarvis AI.2.5 — Live Interactive Workspace</span>
+              <span>Jarvis AI.2.5 — Cloud Workspace</span>
             </div>
             <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="window-expand-btn">
-              <span>Full Screen</span>
+              <span>Launch App</span>
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M7 17L17 7M7 7h10v10" />
               </svg>
             </a>
           </div>
 
-          <div class="live-app-frame">
-            <iframe
-              src="https://jarvis-ai-wine-seven.vercel.app/"
-              title="Jarvis AI.2.5 Live Workspace"
-              allow="microphone; camera; clipboard-read; clipboard-write; fullscreen"
-              allowfullscreen
-            ></iframe>
+          <div style="padding: 56px 24px; text-align: center; background: radial-gradient(circle at center, rgba(34,211,238,0.12), rgba(6,11,19,0.96) 70%);">
+            <div style="width: 76px; height: 76px; margin: 0 auto 20px; border-radius: 50%; border: 2px solid #22d3ee; display: grid; place-items: center; box-shadow: 0 0 32px rgba(34,211,238,0.35);">
+              <svg width="40" height="40" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="11" stroke="#22D3EE" stroke-width="2" />
+                <polygon points="14,7 20,18 8,18" stroke="#E0F2FE" stroke-width="2" fill="rgba(56,189,248,0.25)" />
+                <circle cx="14" cy="14" r="2.5" fill="#FFFFFF" />
+              </svg>
+            </div>
+            <h2 style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(1.5rem, 3vw, 2.1rem); margin-bottom: 10px;">
+              Hello, I am JARVIS
+            </h2>
+            <p style="max-width: 540px; margin: 0 auto 28px; color: #94a3b8; font-size: 0.96rem;">
+              Ask questions, search live web sources, generate AI artwork, solve math, or attach up to 10 files in Guest Mode or with your account.
+            </p>
+            <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-glow btn-lg">
+              <span>Start Chatting in Jarvis AI.2.5</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
           </div>
-        </div>
-
-        <!-- Primary Open App CTA Directly Under App Window -->
-        <div class="prototype-footer-cta">
-          <p class="prototype-note">Prefer a dedicated full-screen tab for your workspace?</p>
-          <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-glow btn-lg">
-            <span>Open Full Jarvis AI.2.5 App</span>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M7 17L17 7M7 7h10v10" />
-            </svg>
-          </a>
         </div>
       </div>
     </section>
@@ -194,7 +191,7 @@
         <div class="bottom-banner">
           <div>
             <h2>Ready to experience Jarvis AI.2.5?</h2>
-            <p>Start chatting immediately in Guest Mode or sign in to sync your workspace.</p>
+            <p>Start chatting immediately in Guest Mode or sign in on the main app.</p>
           </div>
           <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
             <span>Open App Now</span>
@@ -210,7 +207,7 @@
   <footer class="footer">
     <div class="container footer-inner">
       <span class="brand-text">Jarvis <span class="gradient-text">AI.2.5</span></span>
-      <p>Built for high-speed intelligence · <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer">jarvis-ai-wine-seven.vercel.app</a></p>
+      <p>Independent AI project · Not affiliated with Google · <a href="https://jarvis-ai-wine-seven.vercel.app/" target="_blank" rel="noopener noreferrer">jarvis-ai-wine-seven.vercel.app</a></p>
     </div>
   </footer>
 </body>
